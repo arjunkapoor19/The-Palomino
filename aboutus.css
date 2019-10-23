@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 20px;
+	overflow-x: hidden; 
+	color: cornsilk;
+    font-family: 'Flamenco', cursive;
+}
+
+header{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)), url('images/dpsindp1.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.logo{
+	height: 200spx;
+	width: auto;
+	float: left;
+	margin-top: 20px;
+
+}
+
+.colorchange{
+    animation: colorchangeDPS 5s infinite 
+}
+
+@keyframes colorchangeDPS{
+    0% {color: chartreuse;}
+    100%{color: cornsilk;}
+}
