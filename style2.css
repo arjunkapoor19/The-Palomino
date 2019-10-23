@@ -240,3 +240,12 @@ img {vertical-align: middle;}
 .black{
 color:"black";
 }
+
+.img{
+height:300px;
+width:400px;
+}
+
+h1{
+color:black;
+}
